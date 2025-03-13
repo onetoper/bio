@@ -1,0 +1,108 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, SansSerif, serif;
+}
+
+.bg {
+    position: fixed;
+    top: -20px;
+    left: -20px;
+    width: calc(100% + 40px);
+    height: calc(100% + 40px);
+    background-image: url("gifs/particles.gif");
+    background-position: center;
+    background-size: cover;
+    filter: blur(20px);
+    z-index: -1;
+}
+
+.everything {
+    width: 400px;
+    max-width: 600px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.ava img {
+    border-radius: 50%;
+    height: auto;
+    max-width: 100%;
+}
+
+.ava {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.text a {
+    color: white;
+    font-size: 17px;
+}
+
+.text p {
+    color: white;
+    font-size: 25px;
+}
+
+.links {
+    margin-top: 20px;
+}
+
+.links a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    padding: 6px;
+}
+
+.player {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+audio {
+    display: none;
+}
+
+.cap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.cap button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.cap input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 12px;
+    height: 12px;
+    background: white;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.cap span {
+    color: white;
+    font-size: 14px;
+}
