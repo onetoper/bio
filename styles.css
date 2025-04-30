@@ -17,7 +17,7 @@ html, body {
     background-image: url("https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExcTFrM2U3aDBjYW1hZ3hlcmhiMm45MDkxanpmaGdvMGg0YnpieHh0ZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Wy3Q0fuNIJmYn62Lcv/giphy.gif");
     background-position: center;
     background-size: cover;
-    filter: blur(50px);
+    filter: blur(80px);
     z-index: -1;
 }
 
