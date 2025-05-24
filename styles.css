@@ -18,7 +18,7 @@ html, body {
     background: url("downloaded.jpg");
     background-position: center;
     background-size: cover;
-    filter: blur(30px);
+    filter: blur(40px);
     z-index: -1;
 }
 
